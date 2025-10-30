@@ -6,7 +6,7 @@ import torch.nn as nn
 from termcolor import colored
 from PrintAndPlot import SingleTaskClassificationAnswer
 import torch.nn.functional as F
-from model import DiffusionProcess, ConditionalDiffusion_CycleGAN_tequan_Mode
+from Model import DiffusionProcess, ConditionalDiffusion_CycleGAN_tequan_Mode
 from StatisticsUtils import ClassificationMetrics, BinaryClassificationMetric
 from MachineLearningModel import MachineLearningModel, EvaluateMachineLearningModel
 import time
